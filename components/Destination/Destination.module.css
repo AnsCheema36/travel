@@ -1,0 +1,76 @@
+/* components/Destination/Destination.module.css */
+
+/* .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+} */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  /* transition: box-shadow 0.3s ease; */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+
+.cardTitle {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cardDescription {
+  margin: 5px 0;
+  color: #666;
+}
+
+.wishlistButton {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.wishlistButton:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.wishlistButton:hover {
+  background-color: #e68900;
+}
+.BookDestinationButton{
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.BookDestinationButton:hover {
+  background-color: #e68900;
+}
